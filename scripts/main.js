@@ -15,7 +15,7 @@ try {
 		month: "long",
 		year: "numeric"
 	};
-	date1.innerHTML = `<span class="highlight">${new Date().toLocaleDateString("en-US", options)}</span>`;
+	date1.innerHTML = `<span class="highlight">${new Date().toLocaleDateString("en-US")} ${new Date().toTimeString()}</span>`;
 } catch (e) {
 	console.log("Error with code or your browser does not support Locale");
 }
