@@ -20,7 +20,7 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+ align-items: stretch;
 }
 nav li {
   list-style-type: none;
