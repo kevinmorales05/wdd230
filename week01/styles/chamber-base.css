@@ -5,3 +5,72 @@
     --white-color: #fbfbff ;
     --dark-color: #040f16;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--back-color);
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+h1, h2 {
+    font-family: 'Vina Sans';
+    font-weight: bolder;
+    font-size: 2rem;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    margin-right: 30px;
+    width: 70px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+ul li {
+   flex: 1;
+   list-style: none;
+   font-size: 1.5rem;
+}
+nav {
+    background-color: var(--primary-color);
+}
+section {
+    background-color: var(--white-color);
+
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+table {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+table, th, td {
+    border: 1px solid white;
+}
+th {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+}
+th, td {
+    width: 70px;
+    padding: 10px;
+}
