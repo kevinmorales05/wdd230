@@ -1,7 +1,7 @@
 :root {
-    --primary-color : #A09ABC;
-    --secondary-color: #B6A6CA;
-    --back-color: #E1DEE9;
+    --primary-color : #DADFF7;
+    --secondary-color: #232C33;
+    --back-color: #5A7D7C;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: var(--secondary-color);
 }
 nav ul {
   display: flex;
