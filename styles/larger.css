@@ -1,6 +1,7 @@
 @media screen and (max-width: 500px) {
   nav ul {
     flex-direction: column;
+    display: none;
   }
   
   main h2 {
@@ -19,4 +20,8 @@
     grid-column: 1/3;
     grid-row: 3/4;
 }
+#menu {
+  display: block;
+}
+
 }

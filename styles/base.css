@@ -1,9 +1,15 @@
 :root {
-    --primary-color : #DADFF7;
-    --secondary-color: #232C33;
-    --back-color: #5A7D7C;
+    --primary-color :  white;
+    --secondary-color: #5E4955;
+    --back-color: #C6DDF0;
+    --dark-color: black;
 }
-
+:root .night{
+  --primary-color :  white;
+  --secondary-color: #5E4955;
+  --back-color: #C6DDF0;
+  --dark-color: black;
+}
 body {
     background-color: var(--back-color);
     font-family: 'Roboto Condensed';
@@ -25,10 +31,19 @@ nav ul {
 nav li {
   list-style-type: none;
   padding: 1rem;
-  color: white;
+  color: var(--primary-color);
+}
+nav li a {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 section ul li {
   list-style-type: none;
+}
+section ul li a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 nav li:hover {
   background-color: var(--secondary-color);
@@ -61,16 +76,16 @@ main h2 {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 0px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--dark-color);
   font-size: 2rem;
   text-align: left;
 }
 .card {
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--dark-color);
   padding: 0px;
   margin: 10px;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 15px var(--dark-color);
 }
 .card p {
     padding: 10px;
@@ -109,5 +124,34 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--secondary-color);
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+  display: none;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.open ul {
+  display: block;
+}
+
+#darkMode {
+	display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 20px;
 }

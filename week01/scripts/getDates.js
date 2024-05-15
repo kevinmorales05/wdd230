@@ -42,3 +42,12 @@ var year = date.getFullYear();
 lastModified.innerHTML = 'Last Modification: '+ month + "/" + day + "/" + year;
 
 console.log('Date formatted ', lastModified.innerHTML);
+
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+	console.log('open button');
+  navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
+});
