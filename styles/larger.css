@@ -23,5 +23,29 @@
 #menu {
   display: block;
 }
+main{
+  margin-top: 100px;
+}
+.hero {
+	margin-top: 10px;
+  margin-bottom: 10px;
+}
+.herolabel {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	
+	/* Buenas */
+}
+.herolabel p {
+  color: white;
+}
+img {
 
+  object-fit: cover;
+}
+header h1 {
+
+  font-size: 30px;
+}
 }

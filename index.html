@@ -19,12 +19,24 @@
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
+    <div class="herolabel">
+        <p>Orem Utah Temple</p>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width:400px )" srcset="images/orem-utah-temple-s.webp" >
+            <source media="(max-width:500px )" srcset="images/orem-utah-temple-m.webp">
+            <source media="(max-width:1000px )" srcset="images/orem-utah-temple-l.webp">
+            <img src="./images/orem-utah-temple-xl.webp" alt="Orem Utah Temple" width="100%" height="auto" loading="lazy">
+        </picture>
+    </div>
     <header>
-        <img src="images/kevinMorales.jpeg" alt="Kevin Morales Photo" >
+        <img id="logo" src="images/kevinMorales.jpeg" alt="Kevin Morales Photo" loading="eager">
         <h1>Kevin Daniel Morales</h1>
     </header>
     <div id="darkMode">🕶️</div>
-    <button type="button" id="menu"></button>
+ 
+    
     <nav class="navigation">
         <ul>
             <li> <a>Home</a></li>
@@ -33,10 +45,9 @@
             <li><a>Form</a></li>
         </ul>  
     </nav>
-    
     <main>
-        
-        <h2>WDD 230: Web Frontend Development</h2>
+        <button type="button" id="menu"></button>
+        <h2 id="main-title">WDD 230: Web Frontend Development</h2>
         
         <section class="card" id="card1">
             <h3 class="mainTitle1">Learning Activities</h3>
@@ -53,9 +64,12 @@
             <h3 class="mainTitle2">Information</h3>
             <p>Orem, Utah</p>
             <p> &#9729; 9 C  - Cloudy</p>
-            <p> Page Visits: 16</p>
+            <p > Page Visits: <span id="visits">16</span> </p>
         </section>
     </main>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7835105536083!2d-78.52509512477941!3d-0.2393382353784769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59978af723ac5%3A0xfa9ed90a7bd97658!2sEdificio%20Andelose!5e0!3m2!1ses-419!2sec!4v1715961174282!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <p>&copy; <span id="year"></span> Kevin Daniel Morales Estrella - Ecuador &#127466;&#127464; </p>
         
@@ -64,5 +78,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/openMenu.js"></script>
     <script src="scripts/nightMode.js"></script>
+    <script src="scripts/visitsDisplay.js"></script>
 </body>
 </html>
