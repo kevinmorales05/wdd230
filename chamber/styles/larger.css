@@ -88,6 +88,51 @@
     border-radius: 10px;
   }
 
-
-
+  .content-home {
+    width: 95%;
+  }
+  .info-block{
+    display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  }
+  .info-title {
+    font-size: 1.8rem;
+  }
+.events {
+  color: var(--accent2-color);
+  font-size: 2.5rem;
+}
+.prices-block {
+  flex-direction: column;
+  margin: 0 auto;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.combo1, .combo2, .combo3 {
+  height: 500px;
+  width: 95%;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  
+  }
+.combo1 p, .combo2 p  {
+  color: var(--accent2-color);
+    font-size: 1.3rem;
+}
+.footer-life {
+  display: flex;
+  flex-direction: column; 
+}
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.footer-copy {
+  font-size: 1.2rem;
+  line-height: 25px;
+}
   }

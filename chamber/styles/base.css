@@ -464,25 +464,26 @@ Prices block
   justify-content: center;
 }
 .combo1, .combo2, .combo3 {
-height: 600px;
+height: 700px;
 width: 40%;
 margin: 40px;
 border-radius: 10px;
 text-decoration: none;
 }
+.combo1 p, .combo2 p  {
+  color: var(--accent2-color);
+   padding: 10px;
+}
 .combo1 {
-  background-image: url('../images/quito-card1.jpeg');
+background-color: var(--terceary-color);
 
 
 }
 .combo2{
-  background-image: url('../images/quito-card2.jpeg');
+  background-color: var(--terceary-color);
 
 }
-.combo3 {
-  background-image: url('../images/KoreaSite/korea3.webp');
 
-}
 .combo-text {
 align-self: center;
 vertical-align: bottom;
@@ -560,6 +561,7 @@ footer life
 	top: 1rem;
 	right: 1rem;
   display: none;
+  z-index: 2;
 }
 
 #menu::before {
@@ -572,5 +574,4 @@ footer life
 
 .navigation.open {
   display: flex;
-  
 }
