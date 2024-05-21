@@ -7,6 +7,7 @@
     <title>Chamber of Commerce Quito</title>
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="./styles/base.css" >
+    <link rel="stylesheet" href="./styles/larger.css">
     <meta property="og:title" content="Kevin Morales" >
     <meta property="og:url" content="https://www.facebook.com/profile.php?id=1096023994" >
     <meta property="og:description" content="Kevin Morales Facebook profile" >
@@ -18,11 +19,12 @@
         <a href="index.html" id="logo_link">
           <img class="logo" src="./images/quito-flag-min.webp" alt="Life Logo" >
         </a>
-        <nav>
+        <button type="button" id="menu"></button>
+        <nav class="navigation">
           <a href="index.html">Home</a>
-          <a href="#">Link 1 </a>
-          <a href="#">Link 2</a>
-          <a href="#" target="_blank">Join the Chamber</a>
+          <a href="#">Discover </a>
+          <a href="#">Directory</a>
+          <a href="#" target="_blank">Join</a>
         </nav>
       </header>
       <div id="hero">
@@ -41,7 +43,7 @@
             and providing essential resources
           </h4>
           <div class="button-box">
-            <a class="book" href="https://wa.me/message/C23SFYIKLTP2A1" target="_blank">Join the Chamber</a>
+            <a class="book" href="https://wa.me/message/C23SFYIKLTP2A1" target="_blank">Join</a>
           </div>
         </section>
       </div>
@@ -187,6 +189,7 @@
           </a>
         </div>
       </footer>
+      <script src="scripts/openMenu.js"></script>
     </div>
   </body>
 </html>
