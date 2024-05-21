@@ -561,7 +561,7 @@ footer life
 	top: 1rem;
 	right: 1rem;
   display: none;
-  z-index: 2;
+
 }
 
 #menu::before {
