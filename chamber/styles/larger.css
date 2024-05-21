@@ -50,5 +50,44 @@
     display: none;
     padding: 15px;
   }
+  #hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -100px;
+  }
+  #hero-box {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: -1;
+  }
+  #hero-img {
+    height: 400px;
+  }
+  #hero-msg {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin-top: 20px;
+    z-index: 1;
+  }
+  #hero-msg h4 {
+    color: white;
+  }
+  .home-title {
+    color: var(--accent1-color);
+  }
+  
+  .msg {
+    background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+  .book,
+  .join {
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+
+
 
   }
