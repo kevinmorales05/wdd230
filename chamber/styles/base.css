@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #C1272D   ;
-  --secondary-color: #333D8D ;
-  --terceary-color: #31A8DF ;
-  --accent1-color: #FFFFFF;
+  --primary-color: #c1272d;
+  --secondary-color: #333d8d;
+  --terceary-color: #31a8df;
+  --accent1-color: #ffffff;
   --accent2-color: #000000;
 
   /* change the values below to your chosen font(s) */
@@ -12,11 +12,19 @@
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: var(--primary-color);  /* headlines on a white background */ 
-  --headline-color-on-color: var(--accent1-color); /* headlines on a colored background */ 
-  --paragraph-color-on-white: var(--accent2-color); /* paragraph text on a white background */ 
-  --paragraph-color-on-color: var(--accent1-color); /* paragraph text on a colored background */ 
-  --paragraph-background-color: var(--primary-color)  ;
+  --headline-color-on-white: var(
+    --primary-color
+  ); /* headlines on a white background */
+  --headline-color-on-color: var(
+    --accent1-color
+  ); /* headlines on a colored background */
+  --paragraph-color-on-white: var(
+    --accent2-color
+  ); /* paragraph text on a white background */
+  --paragraph-color-on-color: var(
+    --accent1-color
+  ); /* paragraph text on a colored background */
+  --paragraph-background-color: var(--primary-color);
   --nav-link-color: var(--accent1-color);
   --nav-background-color: var(--secondary-color);
   --nav-hover-link-color: var(--accent1-color);
@@ -45,7 +53,6 @@ nav a {
   padding: 35px;
   margin: 0;
   text-shadow: 0 0 4px black;
- 
 }
 .home-title {
   color: white;
@@ -59,7 +66,6 @@ nav a {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 80px;
-
 }
 h4 {
   color: #00171f;
@@ -89,7 +95,7 @@ header {
   background-color: #00a7e1;
   display: grid;
   grid-template-columns: 150px auto;
-  opacity: .7;
+  opacity: 0.7;
 }
 nav a:hover {
   background-color: black;
@@ -254,7 +260,7 @@ New blocks
   width: 70%;
   margin: 0 auto;
 }
-.info-block{
+.info-block {
   display: grid;
   margin: 0 auto;
 }
@@ -267,18 +273,17 @@ New blocks
   text-shadow: 0 0 4px black;
   color: white;
 }
-.info-descrip{
+.info-descrip {
   grid-column: 6/10;
   grid-row: 2/6;
   font-size: 16px;
   padding: 50px;
   font-family: Open Sans, "Times New Roman", Times, serif;
-
 }
 .info-picture1 {
   grid-column: 1/5;
   grid-row: 2/11;
-   /* background-color: var(--terceary-color);  */
+  /* background-color: var(--terceary-color);  */
   padding: 30px;
   border-radius: 10px;
 }
@@ -290,17 +295,17 @@ New blocks
   border-radius: 10px;
 }
 .long-img {
-width: 100%;
-height: 100%;
-border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 .short-img {
- width: 100%;
- height: 100%;
- border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 /* mirror effect */
-.info-descrip-mirror{
+.info-descrip-mirror {
   grid-column: 2/6;
   grid-row: 2/6;
   font-size: 16px;
@@ -339,7 +344,7 @@ Cards structure
 }
 .line-block {
   background-color: var(--secondary-color);
-  height: 50%; 
+  height: 50%;
   width: 100%;
   border-radius: 10px;
   grid-column: 1/7;
@@ -350,11 +355,11 @@ Cards structure
   grid-column: 1/6;
   grid-row: 3/4;
   font-size: 14px;
-  
+
   font-family: Open Sans, "Times New Roman", Times, serif;
   /* background-color: blue; */
   width: 70%;
-  
+
   margin: 0 auto;
 }
 .country-title {
@@ -376,7 +381,7 @@ Cards structure
   /* background-color: pink;  */
   font-size: 14px;
   width: 70%;
-  
+
   margin: 0 auto;
 }
 .info-picture-1 {
@@ -397,10 +402,9 @@ Cards structure
 Cards structure mirror
 */
 
-
 .line-block-mirror {
   background-color: var(--secondary-color);
-  height: 50%; 
+  height: 50%;
   width: 100%;
   border-radius: 10px;
   grid-column: 7/14;
@@ -414,7 +418,7 @@ Cards structure mirror
   font-family: Open Sans, "Times New Roman", Times, serif;
   /* background-color: blue; */
   width: 70%;
-  
+
   margin: 0 auto;
 }
 .country-title-mirror {
@@ -436,7 +440,7 @@ Cards structure mirror
   /* background-color: pink;  */
   font-size: 14px;
   width: 70%;
-  
+
   margin: 0 auto;
 }
 .info-picture-1-mirror {
@@ -463,56 +467,56 @@ Prices block
   flex-direction: row;
   justify-content: center;
 }
-.combo1, .combo2, .combo3 {
-height: 700px;
-width: 40%;
-margin: 40px;
-border-radius: 10px;
-text-decoration: none;
+.combo1,
+.combo2,
+.combo3 {
+  height: 700px;
+  width: 40%;
+  margin: 40px;
+  border-radius: 10px;
+  text-decoration: none;
 }
-.combo1 p, .combo2 p  {
+.combo1 p,
+.combo2 p {
   color: var(--accent2-color);
-   padding: 10px;
+  padding: 10px;
 }
 .combo1 {
-background-color: var(--terceary-color);
-
-
-}
-.combo2{
   background-color: var(--terceary-color);
-
+}
+.combo2 {
+  background-color: var(--terceary-color);
 }
 
 .combo-text {
-align-self: center;
-vertical-align: bottom;
-line-height: 300px;
+  align-self: center;
+  vertical-align: bottom;
+  line-height: 300px;
 }
 .combo-text2 {
   align-self: center;
   vertical-align: bottom;
-  }
+}
 
-  .info-title2 {
-    text-align: center;
-    font-family: Merienda, "Times New Roman", Times, serif;
-    font-size: 1.5em;
-    text-shadow: 0 0 4px black;
-    color: white;
-    margin:0;
-  }
-  .info-title3 {
-    text-align: center;
-    font-family: Merienda, "Times New Roman", Times, serif;
-    font-size: 0.7em;
-    text-shadow: 0 0 4px black;
-    color: white;
-    margin: 0;
-  }
-  .fix-height {
-    margin-top: 120px;
-  }
+.info-title2 {
+  text-align: center;
+  font-family: Merienda, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  text-shadow: 0 0 4px black;
+  color: white;
+  margin: 0;
+}
+.info-title3 {
+  text-align: center;
+  font-family: Merienda, "Times New Roman", Times, serif;
+  font-size: 0.7em;
+  text-shadow: 0 0 4px black;
+  color: white;
+  margin: 0;
+}
+.fix-height {
+  margin-top: 120px;
+}
 /*
 footer life
 */
@@ -522,7 +526,6 @@ footer life
   background-color: var(--terceary-color);
   height: fit-content;
   vertical-align: middle;
-
 }
 .icon-social {
   width: 100px;
@@ -548,28 +551,26 @@ footer life
   width: 50%;
 }
 .weather-card {
-  
   padding: 10px;
 }
 
 #menu {
-	font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: #000;
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   display: none;
-
 }
 
 #menu::before {
-	content: "☰";
+  content: "☰";
 }
 
 #menu.open::before {
-	content: "❎";
+  content: "❎";
 }
 
 .navigation.open {
