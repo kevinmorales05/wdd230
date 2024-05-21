@@ -623,3 +623,10 @@ footer life
 .hover:hover {
   box-shadow: 0 0 50px #333;
 }
+iframe {
+  width: 90%;
+}
+.hover {
+  width: 95%;
+  height: auto;
+}
