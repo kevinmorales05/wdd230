@@ -138,4 +138,8 @@
     font-size: 1.2rem;
     line-height: 25px;
   }
+  .content-sidebar {
+    display: flex;
+    flex-direction: column;
+  }
 }
