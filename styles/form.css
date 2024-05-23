@@ -1,0 +1,69 @@
+:root {
+    --primary-color :  white;
+    --secondary-color: #5E4955;
+    --back-color: #C6DDF0;
+    --dark-color: black;
+}
+#newForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-group button {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+label {
+    color: var(--dark-color);
+    font-weight: bolder;
+}
+#greeting {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.label-received {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+#username, #email, #page_rating {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+main{
+    margin-top: 200px;
+  }
+#menu{
+   
+   left: 160px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+  @media screen and (max-width: 500px) {
+    main{
+        margin-top: 100px;
+      } 
+  } 

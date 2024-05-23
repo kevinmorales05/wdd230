@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development Kevin Daniel Morales Estrella - Form assigment" >
+    <meta name="author" content="Kevin Daniel Morales Estrella" >
+    <title>Form - Kevin Morales</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Pacifico&family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&family=Zeyada&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Kevin Morales" >
+    <meta property="og:url" content="https://www.facebook.com/profile.php?id=1096023994" >
+    <meta property="og:description" content="Kevin Morales Facebook profile" >
+    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=10224145263554759&set=a.1407901632994" >
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <div class="herolabel">
+        <p>Orem Utah Temple</p>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width:400px )" srcset="images/orem-utah-temple-s.webp" >
+            <source media="(max-width:500px )" srcset="images/orem-utah-temple-m.webp">
+            <source media="(max-width:1000px )" srcset="images/orem-utah-temple-l.webp">
+            <img src="./images/orem-utah-temple-xl.webp" alt="Orem Utah Temple" loading="lazy">
+        </picture>
+    </div>
+    <header>
+        <img id="logo" src="images/kevinMorales.jpeg" alt="Kevin Morales Photo" loading="eager">
+        <h1>Kevin Daniel Morales</h1>
+    </header>
+    <div id="darkMode">🕶️</div>
+ 
+    
+    <nav class="navigation">
+        <ul>
+            <li> <a>Home</a></li>
+            <li><a href="./chamber/index.html">Chamber</a></li>
+            <li> <a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a>Form</a></li>
+        </ul>  
+    </nav>
+    <main>
+        <button type="button" id="menu"></button>
+        <h2 id="main-title">WDD 230: Web Frontend Development</h2>
+        
+        <section class="card" id="card1">
+            <h3 class="mainTitle1">Form Confirmation</h3>
+            <div id="newForm">
+                <p id="greeting">Thank you for submitting the form. Your data has beed recorded!</p>
+                <ul>
+                    <li class="label-received">Username: <span id="username"></span></li>
+                    <li class="label-received">Email: <span id="email"></span></li>
+                    <li class="label-received">Page Rating: <span id="page_rating"></span></li>
+                </ul>
+            </div>
+            
+        </section>
+        
+    </main>
+    
+
+    <footer>
+        <p>&copy; <span id="year"></span> Kevin Daniel Morales Estrella - Ecuador &#127466;&#127464; </p>
+        
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/openMenu.js"></script>
+    <script src="scripts/nightMode.js"></script>
+    <script src="scripts/visitsDisplay.js"></script>
+    <script src="scripts/updateRating.js"></script>
+    <script src="scripts/checkConfirmPassword.js"></script>
+    <script src="scripts/getInfo.js"></script>
+</body>
+</html>

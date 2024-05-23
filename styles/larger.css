@@ -8,7 +8,7 @@
     font-size: 1.3rem;
     text-align: center;
   }
-  main {
+  main { 
     grid-template: 110px 1fr / 1fr 1fr;
 
   }
