@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #c1272d;
+  --secondary-color: #333d8d;
+  --terceary-color: #31a8df;
+  --accent1-color: #ffffff;
+  --accent2-color: #000000;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Merienda", "Times New Roman";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(
+    --primary-color
+  ); /* headlines on a white background */
+  --headline-color-on-color: var(
+    --accent1-color
+  ); /* headlines on a colored background */
+  --paragraph-color-on-white: var(
+    --accent2-color
+  ); /* paragraph text on a white background */
+  --paragraph-color-on-color: var(
+    --accent1-color
+  ); /* paragraph text on a colored background */
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--accent1-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--primary-color);
+}
+.membership_block {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px;
+}
+.membership_block h2 {
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.membership_block h3 {
+    font-family: var(--paragraph-font);
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.membership_block p {
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.card {
+    background-color: var(--terceary-color);
+    margin: 100px;
+    border-radius: 10px;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.info-title-responsive {
+    display: none;
+}
+.mainTitle1 {
+    font-weight: bolder;
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    color: var(--accent1-color);
+    text-shadow: 
+                1px 1px 0px var(--accent2-color), 
+                -1px -1px 0px var(--accent2-color), 
+                -1px 1px 0px var(--accent2-color), 
+                1px -1px 0px var(--accent2-color),
+                1px 0px 0px var(--accent2-color), 
+                -1px 0px 0px var(--accent2-color), 
+                0px 1px 0px var(--accent2-color), 
+                0px -1px 0px var(--accent2-color);
+}
+label {
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+}
+#newForm {
+    width: 65%;
+}
+@media screen and (max-width: 500px) {
+    main{
+        margin-top: 100px;
+      } 
+    .form_block {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .card{
+        width: 90%;
+       align-self: center;
+    }
+    .membership_block {
+        background-color: var(--primary-color);
+        padding: 10px;
+        border-radius: 10px;
+        width: 95%;
+        margin: 0px;
+        margin-top: 10px;
+      }
+    .info-title {
+        display: none;
+    }
+    .info-title-responsive {
+        display: block;
+        font-size: 2rem;
+        font-family: var(--heading-font);
+    }
+    #newForm {
+        width: 75%;
+    }
+
+  } 

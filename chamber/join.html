@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Join</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./styles/base.css" >
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/join.css">
+    <meta property="og:title" content="Kevin Morales" >
+    <meta property="og:url" content="https://www.facebook.com/profile.php?id=1096023994" >
+    <meta property="og:description" content="Kevin Morales Facebook profile" >
+    <meta property="og:image" content="https://www.facebook.com/photo/?fbid=10224145263554759&set=a.1407901632994" >
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <a href="index.html" id="logo_link">
+          <img class="logo" src="./images/quito-flag-min.webp" alt="Life Logo" >
+        </a>
+        <button type="button" id="menu">Menu</button>
+        <nav class="navigation">
+          <a href="index.html">Home</a>
+          <a href="discover.html">Discover </a>
+          <a href="#">Directory</a>
+          <a href="join.html" target="_blank">Join</a>
+        </nav>
+      </header>
+      <div id="hero">
+        <div id="hero-box">
+          <img
+            id="hero-img"
+            src="./images/quito-background.webp"
+            alt="Quito at the sunset"
+          >
+        </div>
+        <section id="hero-msg">
+          <h1 class="home-title">We are here to empower the economy</h1>
+          <h4 class="home-subtitle">
+            The Quito Chamber of Commerce is dedicated to fostering a thriving business ecosystem in the city. 
+            Its purpose is to connect and empower local businesses, advocating for their interests, 
+            and providing essential resources
+          </h4>
+          <div class="button-box">
+            <a class="book" href="https://wa.me/message/C23SFYIKLTP2A1" target="_blank">Join</a>
+          </div>
+        </section>
+      </div>
+      <main class="content-home">
+        <h2 class="info-title events">Checkout our Plans </h2>
+        <div class="form_block">
+            <section>
+                <h2 class="info-title-responsive">Checkout our Plans </h2>
+                <div class="membership_block">
+                    <h2>NP Membership</h2>
+                    <h3>Benefits</h3>
+                    <p>Ideal for non-profit organizations, this membership offers 
+                        essential benefits at no cost. Members gain access to basic 
+                        resources, networking opportunities, and participation in 
+                        community events, enhancing their outreach and mission 
+                        effectiveness without financial burden.</p>
+                        <p>100 USD</p>
+                </div>
+                <div class="membership_block">
+                    <h2>Bronze Membership</h2>
+                    <h3>Benefits</h3>
+                    <p>This entry-level paid membership provides additional benefits 
+                        such as enhanced visibility within the community, access to 
+                        member-only events, and basic promotional opportunities. It’s 
+                        perfect for small businesses seeking initial growth and 
+                        networking.</p>
+                        <p>200 USD</p>
+                </div>
+                <div class="membership_block">
+                    <h2>Silver Membership</h2>
+                    <h3>Benefits</h3>
+                    <p>Offering more advanced benefits, this tier includes all Bronze 
+                        benefits plus extended promotional services, greater visibility,
+                         discounted rates on services, and premium event access. It's 
+                         designed for businesses aiming to expand their market presence 
+                         and professional connections.</p>
+                         <p>300 USD</p>
+                </div>
+                <div class="membership_block">
+                    <h2>Gold Membership</h2>
+                    <h3>Benefits</h3>
+                    <p>The highest tier, Gold Membership, provides all Silver benefits 
+                        plus exclusive advertising opportunities, top-tier event access, 
+                        personal business consultations, and significant discounts on all 
+                        services. It’s tailored for businesses looking to maximize their 
+                        influence and leadership within the community.</p>
+                        <p>400 USD</p>
+                </div>
+            </section>
+            <section class="card" id="card1">
+                <h3 class="mainTitle1">Join us!</h3>
+                <div id="errorMessage"></div>
+                <form id="newForm" method="get" action="./record.html" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="first_name">Applicant's First Name</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Applicant's Last Name</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Applicant's Title</label>
+                        <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" title="Title must be at least 7 characters long and can only contain alpha characters, hyphens, and spaces.">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Mobile Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="organization_name">Business/Organization's Name</label>
+                        <input type="text" id="organization_name" name="organization_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="membership_level">Membership Level</label>
+                        <select id="membership_level" name="membership_level" required>
+                            <option value="" disabled selected>Select Membership Level</option>
+                            <option value="NP Membership">NP Membership (Non-Profit, No Fee)</option>
+                            <option value="Bronze Membership">Bronze Membership</option>
+                            <option value="Silver Membership">Silver Membership</option>
+                            <option value="Gold Membership">Gold Membership</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Business/Organization's Description</label>
+                        <textarea id="description" name="description" rows="4"></textarea>
+                    </div>
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <div class="form-group">
+                        <button type="submit" id="sendButton">Submit</button>
+                    </div>
+                </form>
+            </section>
+           
+        </div>
+        
+      </main>
+      <footer class="footer-life">
+        <div>
+          <a href="https://instagram.com" target="_blank">
+            <img class="icon-social" src="./images/instagram-icon.jpeg" alt="instagram icon" >
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <img class="icon-social" src="./images/facebook-icon.png" alt="fb icon" >
+          </a>
+        </div>
+        <div>
+          
+          <p class="footer-text"> Address</p>
+          <p class="footer-text">Galte and Rodrigo de Chavez</p>
+          <p class="footer-text">Quito-Ecuador</p>
+          <p class="footer-copy">Quito Chamber of Commerce &copy; 2024 - Kevin Morales</p>
+          <a
+          class="footer-text"
+          target="_blank"
+          href="../week01/chamber-site-plan.html"
+          >Site Plan</a
+        >
+        </div>
+        <div>
+          <a href="https://twitter.com" target="_blank">
+            <img class="icon-social" src="./images/tiktok-icon.webp" alt="tiktok icon" >
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img class="icon-social" src="./images/youtube-icon.png" alt="youtube icon" >
+          </a>
+        </div>
+      </footer>
+      <script src="scripts/openMenu.js"></script>
+      <script src="scripts/checkPassword.js"></script>
+    </div>
+  </body>
+</html>

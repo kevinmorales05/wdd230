@@ -1,0 +1,101 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #c1272d;
+    --secondary-color: #333d8d;
+    --terceary-color: #31a8df;
+    --accent1-color: #ffffff;
+    --accent2-color: #000000;
+}  
+#newForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+#sendButton {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, #sendButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+label {
+    color: var(--dark-color);
+    font-weight: bolder;
+}
+#greeting {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.label-received {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+#username, #email, #page_rating {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+main{
+    margin-top: 200px;
+  }
+#menu{
+   color: white;
+   left: 160px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.form_block{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    flex-direction: row;
+    justify-content: center;
+}
+.newButton {
+    background-color: var(--accent2-color);
+    border: white solid 2px;
+}
+.home-subtitle{
+    text-shadow: 
+                -1px -1px 0 var(--accent2-color),  
+                1px -1px 0 var(--accent2-color),
+                -1px 1px 0 var(--accent2-color),
+                1px 1px 0 var(--accent2-color); 
+}
+.navigation {
+    background-color: var(--accent2-color);
+}
+header {
+    background-color: var(--accent2-color);
+    opacity: 1;
+}
+#hero-img {
+    opacity: 0.9;
+}
+  @media screen and (max-width: 500px) {
+    main{
+        margin-top: 100px;
+      } 
+      #menu{
+        color: white;
+        left: 300px;
+     }
+  } 
