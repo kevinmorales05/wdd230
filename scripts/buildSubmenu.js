@@ -3,7 +3,7 @@ const weeks = [];
 
 async function getData() {
     try {
-        const infoData = await fetch("../data/links.json");
+        const infoData = await fetch("/data/links.json");
   const data = await infoData.json();
   //console.log("URLS data", data);
   data.weeks.map((week) => {
