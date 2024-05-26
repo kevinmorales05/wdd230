@@ -41,4 +41,4 @@ var year = date.getFullYear();
 
 lastModified.innerHTML = 'Last Modification: '+ month + "/" + day + "/" + year;
 
-console.log('Date formatted ', lastModified.innerHTML);
+//console.log('Date formatted ', lastModified.innerHTML);

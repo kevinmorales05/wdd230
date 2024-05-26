@@ -29,7 +29,7 @@ function getDaysBetweenDates(date1, date2) {
 
 // Get the current date
 const currentDate = new Date();
-console.log(currentDate)
+//console.log(currentDate)
 
 // Get the last visit date from localStorage
 const lastVisitDateStr = localStorage.getItem('lastVisitDate');

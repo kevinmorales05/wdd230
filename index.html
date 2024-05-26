@@ -51,19 +51,13 @@
         
         <section class="card" id="card1">
             <h3 class="mainTitle1">Learning Activities</h3>
-            <ul>
-                <li>Week 01: <a class="externalLink" href="">Layout</a> | <a class="externalLink" href="">Media Query</a> | <a class="externalLink" href="">JS Pen</a></li>
-                <li>Week 02: </li>
-                <li>Week 03: </li>
-                <li>Week 04: </li>
-                <li>Week 05: </li>
-                <li>Week 06: </li>
+            <ul id="links-ul">
             </ul>
         </section>
         <section class="card" id="card2">
             <h3 class="mainTitle2">Information</h3>
-            <p>Orem, Utah</p>
-            <p> &#9729; 9 C  - Cloudy</p>
+            <p>Quito, Ecuador</p>
+            <p> &#9729; <span id="currentTemperature">9</span> C - <span id="descriptionWeather"> Cloudy</span>  </p>
             <p > Page Visits: <span id="visits">16</span> </p>
         </section>
     </main>
@@ -79,5 +73,7 @@
     <script src="scripts/openMenu.js"></script>
     <script src="scripts/nightMode.js"></script>
     <script src="scripts/visitsDisplay.js"></script>
+    <script src="scripts/getTemperature.js"></script>
+    <script src="scripts/buildSubmenu.js"></script>
 </body>
 </html>
