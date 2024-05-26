@@ -135,7 +135,7 @@ async function getData() {
     uncrambleList.appendChild(listElement);
   });
     } catch (error) {
-        console.log(errror);
+        console.log(error);
         localData.weeks.map((week) => {
             weeks.push(week);
           });
