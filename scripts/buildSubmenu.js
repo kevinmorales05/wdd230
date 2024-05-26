@@ -2,7 +2,8 @@ const baseUrl = "https://kevinmorales05.github.io/wdd230/";
 const weeks = [];
 
 async function getData() {
-  const infoData = await fetch("../data/links.json");
+    try {
+        const infoData = await fetch("../data/links.json");
   const data = await infoData.json();
   //console.log("URLS data", data);
   data.weeks.map((week) => {
@@ -25,6 +26,10 @@ async function getData() {
     });
     uncrambleList.appendChild(listElement);
   });
+    } catch (error) {
+        console.log(errror);
+    }
+  
 }
 
 getData();
