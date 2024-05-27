@@ -166,4 +166,7 @@
   padding: 5px;
   width: 85%;
 }
+.hidden {
+  display: none;
+}
 }
