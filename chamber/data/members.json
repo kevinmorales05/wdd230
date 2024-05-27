@@ -1,0 +1,60 @@
+{
+   "members": [
+        {
+            "name": "John Doe",
+            "address": "123 Main St, Springfield, IL 62701",
+            "phoneNumber": "+1-555-123-4567",
+            "websiteURL": "https://es.wikipedia.org/wiki/John_Doe_(serie_de_televisi%C3%B3n)",
+            "iconFileName": "images/people/johndoe.webp",
+            "membershipLevel": "Gold",
+            "email": "john.doe@example.com",
+            "businessName": "John's Plumbing",
+            "additionalInfo": "Open 24/7, specializing in emergency services."
+        },
+        {
+            "name": "Jane Smith",
+            "address": "456 Elm St, Springfield, IL 62702",
+            "phoneNumber": "+1-555-987-6543",
+            "websiteURL": "https://es.wikipedia.org/wiki/Lisa_Jane_Smith",
+            "iconFileName": "images/people/janesmith.webp",
+            "membershipLevel": "Silver",
+            "email": "jane.smith@example.com",
+            "businessName": "Jane's Bakery",
+            "additionalInfo": "Family-owned bakery with a variety of pastries and breads."
+        },
+        {
+            "name": "Bob Johnson",
+            "address": "789 Oak St, Springfield, IL 62703",
+            "phoneNumber": "+1-555-456-7890",
+            "websiteURL": "https://es.wikipedia.org/wiki/Robert_Johnson",
+            "iconFileName": "images/people/bobjohnson.webp",
+            "membershipLevel": "Bronze",
+            "email": "bob.johnson@example.com",
+            "businessName": "Bob's Auto Repair",
+            "additionalInfo": "Certified auto mechanic with over 20 years of experience."
+        },
+        {
+            "name": "Alice Brown",
+            "address": "101 Maple St, Springfield, IL 62704",
+            "phoneNumber": "+1-555-321-4321",
+            "websiteURL": "https://es.wikipedia.org/wiki/Alice_Brown_(atleta)",
+            "iconFileName": "images/people/alicebrown.webp",
+            "membershipLevel": "NP",
+            "email": "alice.brown@example.com",
+            "businessName": "Alice's Charity",
+            "additionalInfo": "Non-profit organization focused on community outreach and support."
+        },
+        {
+            "name": "Charlie Davis",
+            "address": "202 Pine St, Springfield, IL 62705",
+            "phoneNumber": "+1-555-654-3210",
+            "websiteURL": "https://es.wikipedia.org/wiki/Charlie_Davies",
+            "iconFileName": "images/people/charliedavis.webp",
+            "membershipLevel": "Gold",
+            "email": "charlie.davis@example.com",
+            "businessName": "Charlie's Fitness Center",
+            "additionalInfo": "State-of-the-art fitness center with personal training services."
+        }
+    ]
+    
+}
