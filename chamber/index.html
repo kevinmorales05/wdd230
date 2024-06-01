@@ -8,6 +8,8 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="./styles/base.css" >
     <link rel="stylesheet" href="./styles/larger.css">
+    <meta name="description" content="Author: Kevin Morales,
+    City: Quito, Name: Home Page ">
     <meta property="og:title" content="Kevin Morales" >
     <meta property="og:url" content="https://www.facebook.com/profile.php?id=1096023994" >
     <meta property="og:description" content="Kevin Morales Facebook profile" >
@@ -34,11 +36,18 @@
       <div id="hero">
         
         <div id="hero-box">
-          <img
+          <picture>
+            <source media="(max-width:400px )" srcset="images/hero/quito-background-s.webp" >
+            <source media="(max-width:500px )" srcset="images/hero/quito-background-m.webp">
+            <source media="(max-width:1000px )" srcset="images/hero/quito-background-l.webp">
+            <img
             id="hero-img"
-            src="./images/quito-background.webp"
+            src="./images/hero/quito-background.webp"
             alt="Quito at the sunset"
+            loading="eager"
           >
+        </picture>
+          
         </div>
         <section id="hero-msg">
           <h1 class="home-title">We are here to empower the economy</h1>
@@ -69,13 +78,13 @@
               </p>
             </div>
             <div class="info-picture1">
-              <img class="long-img" src="./images/quito1-high.jpeg" alt="" >
+              <img class="long-img" src="./images/quito1-high.jpeg" alt="Quito Place" >
             </div>
             <div class="info-picture2">
               <img
                 class="short-img"
                 src="./images/quito1-wide.jpeg"
-                alt=""
+                alt="Quito Place 2"
               >
             </div>
           </div>
@@ -95,13 +104,13 @@
             </p>
           </div>
           <div class="info-picture1">
-            <img class="long-img" src="./images/quito2-high.webp" alt="" >
+            <img class="long-img" src="./images/quito2-high.webp" alt="Quito Old City" loading="lazy" >
           </div>
           <div class="info-picture2">
             <img
               class="short-img"
               src="./images/quito2-wide.jpeg"
-              alt=""
+              alt="Quito Life"
             >
           </div>
         </div>
@@ -119,7 +128,7 @@
             </p>
           </div>
           <div class="info-picture1-mirror">
-            <img class="long-img" src="./images/quito3-high.jpeg" alt="" >
+            <img class="long-img" src="./images/quito3-high.webp" alt="" >
           </div>
           <div class="info-picture2-mirror">
             <img
