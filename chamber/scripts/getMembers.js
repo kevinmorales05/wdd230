@@ -9,7 +9,6 @@ async function getData() {
   }
 }
 function buildDirectory(directoryArray) {
-  console.log("newArray ", directoryArray);
   const gridBox = document.querySelector(".grid-box");
   const listBox = document.querySelector(".list-box");
   directoryArray.map((directory) => {
@@ -91,3 +90,4 @@ function buildDirectory(directoryArray) {
   });
 }
 getData();
+

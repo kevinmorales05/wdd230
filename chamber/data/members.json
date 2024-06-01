@@ -9,7 +9,8 @@
             "membershipLevel": "Gold",
             "email": "john.doe@example.com",
             "businessName": "John's Plumbing",
-            "additionalInfo": "Open 24/7, specializing in emergency services."
+            "additionalInfo": "Open 24/7, specializing in emergency services.",
+            "spotlight": "CEO of Andes Tech, leading innovation in technology solutions and promoting sustainable growth in the region. His vision drives the company's success and regional impact."
         },
         {
             "name": "Jane Smith",
@@ -20,7 +21,8 @@
             "membershipLevel": "Silver",
             "email": "jane.smith@example.com",
             "businessName": "Jane's Bakery",
-            "additionalInfo": "Family-owned bakery with a variety of pastries and breads."
+            "additionalInfo": "Family-owned bakery with a variety of pastries and breads.",
+            "spotlight": "Founder of EcoTrade, advocating for eco-friendly trade practices. Her efforts are pivotal in promoting sustainable business models and environmental responsibility."
         },
         {
             "name": "Bob Johnson",
@@ -31,7 +33,8 @@
             "membershipLevel": "Bronze",
             "email": "bob.johnson@example.com",
             "businessName": "Bob's Auto Repair",
-            "additionalInfo": "Certified auto mechanic with over 20 years of experience."
+            "additionalInfo": "Certified auto mechanic with over 20 years of experience.",
+            "spotlight": "CFO of QFinance, providing vital financial services and support to local startups. His expertise is instrumental in the financial stability and growth of emerging businesses."
         },
         {
             "name": "Alice Brown",
@@ -42,7 +45,8 @@
             "membershipLevel": "NP",
             "email": "alice.brown@example.com",
             "businessName": "Alice's Charity",
-            "additionalInfo": "Non-profit organization focused on community outreach and support."
+            "additionalInfo": "Non-profit organization focused on community outreach and support.",
+            "spotlight": "Director at EduQuito, transforming educational initiatives and increasing access to quality education. Her leadership is enhancing learning opportunities for the community."
         },
         {
             "name": "Charlie Davis",
@@ -53,7 +57,8 @@
             "membershipLevel": "Gold",
             "email": "charlie.davis@example.com",
             "businessName": "Charlie's Fitness Center",
-            "additionalInfo": "State-of-the-art fitness center with personal training services."
+            "additionalInfo": "State-of-the-art fitness center with personal training services.",
+            "spotlight": "Owner of QuitoCrafts, dedicated to preserving local craftsmanship and expanding artisanal markets globally. His commitment to cultural heritage and market expansion is commendable."
         }
     ]
     

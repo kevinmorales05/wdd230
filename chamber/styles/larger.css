@@ -169,4 +169,15 @@
 .hidden {
   display: none;
 }
+#banner {
+  height: 140px;
+  background-color: var(--accent1-color);
+  border: var(--terceary-color) 8px solid;
+}
+#banner h2 {
+  font-size: 1rem;
+}
+.grid-spotlight {
+  flex-direction: column;
+}
 }

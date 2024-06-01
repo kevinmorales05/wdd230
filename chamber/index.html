@@ -19,7 +19,7 @@
         <a href="index.html" id="logo_link">
           <img class="logo" src="./images/quito-flag-min.webp" alt="Life Logo" >
         </a>
-        <button type="button" id="menu"></button>
+        <button type="button" id="menu">Menu</button>
         <nav class="navigation">
           <a href="index.html">Home</a>
           <a href="discover.html">Discover </a>
@@ -27,7 +27,12 @@
           <a href="join.html" target="_blank">Join</a>
         </nav>
       </header>
+      <div id="banner">
+        <h2> We invite visitors and users to attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</h2>
+        <button id="closeButton">X</button>
+      </div>
       <div id="hero">
+        
         <div id="hero-box">
           <img
             id="hero-img"
@@ -47,6 +52,7 @@
           </div>
         </section>
       </div>
+      
       <main class="content-home">
         <h2 class="info-title events">Our Comming Events</h2>
         <div class="info-block">
@@ -123,15 +129,26 @@
             >
           </div>
         </div>
+        <h2 class="info-title events">Our Members Spotlights</h2>
+        <div id="spotlights" class="grid-spotlight">
+          
+        </div>
         <div class="weather-card">
             <h2 class="info-title events">Weather</h2>
             <div class="weather">
-                <p>&#9925;  33 C</p>
-                <p>Partly Cloudy</p>
+                <p>&#9925;  <span id="currentTemperature">9</span>  C</p>
+                <p><span id="descriptionWeather"> Cloudy</span></p>
                 <p>Humidity: 35%</p>
                 <p>Wind Chill: N/A</p>
             </div>
         </div>
+        <div class="weather-card">
+          <h2 class="info-title events">Weather Predictions</h2>
+          <div class="weather">
+              <p>The next 5 days temperature forescast</p>
+              <ul id="weather-forecast"></ul>
+          </div>
+      </div>
         <div>
           <h2 class="info-title events">Our Members Spotlights</h2>
           
@@ -189,6 +206,9 @@
         </div>
       </footer>
       <script src="scripts/openMenu.js"></script>
+      <script src="scripts/getTemperature.js"></script>
+      <script src="scripts/showBanner.js"></script>
+      <script src="scripts/getRandomMembers.js"></script>
     </div>
   </body>
 </html>
